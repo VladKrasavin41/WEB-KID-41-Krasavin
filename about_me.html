@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене - Красавін Владислав</title>
+    <link rel="stylesheet" href="style/about_me.css">
+    <style>
+        body {
+    background-image: url('style/imeg/background.jpg');
+    background-size: cover;
+    background-position: center;
+   }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            background-color: #444;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        nav ul li a.active, nav ul li a:hover {
+            background-color: #555;
+        }
+
+        #about {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #about h2 {
+            text-align: center;
+            color: #222;
+        }
+
+        .profile-pic {
+            display: block;
+            margin: 20px auto;
+            border-radius: 50%;
+            max-width: 150px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Заголовок сторінки -->
+    <header>
+        <h1>Про мене</h1>
+    </header>
+
+    <!-- Меню навігації -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about_me.html" class="active">Про мене</a></li>
+            <li><a href="pr.html">Практичні роботи</a></li>
+            <li><a href="lab.html">Лабораторні заняття</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основний контент -->
+    <section id="about">
+        <h2>Привіт! Я — Красавін Владислав</h2>
+        <img src="style/imeg/ava.png" alt="Моє фото" class="profile-pic">
+        <p>Я студент кафедри комп'ютерної інженерії, 4 курс. Моє головне захоплення — це дослідження сучасних технологій, таких як веброзробка, робота з мікроконтролерами та створення електронних пристроїв. У вільний час я із задоволенням експериментую з програмуванням і займаюся розробкою DIY-проєктів.</p>
+        
+        <h3>Мої інтереси:</h3>
+        <ul>
+            <li>Веброзробка: створення сучасних, адаптивних сайтів</li>
+            <li>Машинне навчання та штучний інтелект</li>
+            <li>Моделювання</li>
+        </ul>
+        
+        <h3>Мої навички:</h3>
+        <p>Під час навчання та особистих проєктів я здобув такі навички:</p>
+        <ul>
+            <li>Програмування: Python, JavaScript, C++</li>
+            <li>Розробка вебзастосунків: HTML, CSS</li>
+            <li>Робота з базами даних: MySQL</li>
+            <li>Конфігурація мереж: налаштування маршрутизаторів Huawei</li>
+        </ul>
+
+        <h3>Моя мета:</h3>
+        <p>Стати професійним інженером IoT.</p>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2024 Красавін Владислав</p>
+        <p>
+            <strong>Соціальні мережі:</strong> 
+            <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>

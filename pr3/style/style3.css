@@ -1,0 +1,38 @@
+/* Базові стилі для body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;            /* Висота на всю висоту екрану */
+    justify-content: center;  /* Центрування по горизонталі */
+    align-items: center;      /* Центрування по вертикалі */
+
+}
+
+/* Стиль для кнопки */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50; /* Колір фону кнопки */
+    color: white; /* Колір тексту */
+    font-size: 16px; /* Розмір шрифту */
+    text-align: center; /* Вирівнювання тексту по центру */
+    text-decoration: none; /* Видалення підкреслення */
+    border-radius: 8px; /* Заокруглені кути */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тінь */
+    transition: all 0.3s ease; /* Плавна анімація при взаємодії */
+}
+
+/* Стиль при наведені мишки */
+.button:hover {
+    background-color: #45a049; /* Темніший колір при наведенні */
+    transform: translateY(-3px); /* Легке підняття кнопки */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Збільшена тінь */
+}
+
+/* Стиль при натисканні */
+.button:active {
+    background-color: #388e3c; /* Третій відтінок зеленого при натисканні */
+    transform: translateY(1px); /* Легке опускання кнопки */
+}
